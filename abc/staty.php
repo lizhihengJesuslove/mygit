@@ -35,4 +35,14 @@
  *          ||
  *          \/
  * git mv test.php mv abc/test.php && git rm test.php && git add abc/test.php(运行git mv test.php abc/test.php 相当于运行这三条命令)
+ *
+ */
+ /**
+ *
+ * git fetch 是从远程仓库中获取到数据,但是不会合并.示例如下:
+ * git fetch origin;
+ * git merge origin/master 用来合并
+ * git diff master origin/master 查看本地分支和远程分支的差异
+ 
+ * git pull 是从远程仓库获取到数据直接合并
  */
