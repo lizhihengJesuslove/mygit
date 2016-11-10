@@ -45,4 +45,12 @@
  * git diff master origin/master 查看本地分支和远程分支的差异
  
  * git pull 是从远程仓库获取到数据直接合并
+ * 
+
+ ******************git创建分支***********************
+ git branch testing 	//git 创建了一个testing的分支
+ git log --oneline --decorate	//查看当前分支所指的对象,默认指向master
+
+ git checkout testing 		//切换到testing分支中,也就是说所有的操作都在testing分支中操作
+
  */
