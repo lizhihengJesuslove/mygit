@@ -58,7 +58,7 @@
 
 
 ********************git分支合并***********************
- git checkout -b testing	//想的一样git branch testing , git checkout testing 
+ git checkout -b testing	//相当于git branch testing , git checkout testing 
 
  git checkout master 		//切换的主分支,
  git merge testing 		//合并两个分支
@@ -67,7 +67,8 @@
 
 *********************git远程分支***********************
  git ls-remote			//获取远程分支列表
-
+ git remote add staty 		//添加一个远程分支staty
+ git fetch testing		//抓取远程仓库testing中的数据
 
 
 */
