@@ -47,10 +47,21 @@
  * git pull 是从远程仓库获取到数据直接合并
  * 
 
+
+
  ******************git创建分支***********************
  git branch testing 	//git 创建了一个testing的分支
  git log --oneline --decorate	//查看当前分支所指的对象,默认指向master
 
  git checkout testing 		//切换到testing分支中,也就是说所有的操作都在testing分支中操作
 
+
+
+********************git分支合并***********************
+ git checkout -b testing	//想的一样git branch testing , git checkout testing 
+
+ git checkout master 		//切换的主分支,
+ git merge testing 		//合并两个分支
+
+ git branch -d testing		//删除testing分支
  */
