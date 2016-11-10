@@ -1,4 +1,4 @@
-<?php
+<php
 /**
  *
  * ipconfig /displaydns dns缓存
@@ -69,6 +69,10 @@
  git ls-remote			//获取远程分支列表
  git remote add staty 		//添加一个远程分支staty
  git fetch testing		//抓取远程仓库testing中的数据
+ git push origin --delete staty //删除远程分支staty
+
+*********************git变基***************************
+
 
 
 */
