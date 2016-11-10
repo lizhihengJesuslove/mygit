@@ -64,4 +64,10 @@
  git merge testing 		//合并两个分支
 
  git branch -d testing		//删除testing分支
- */
+
+*********************git远程分支***********************
+ git ls-remote			//获取远程分支列表
+
+
+
+*/
