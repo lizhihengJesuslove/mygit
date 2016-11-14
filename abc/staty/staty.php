@@ -1,5 +1,5 @@
 <php
-/**
+/*****************************git学习*******************************
  *
  * ipconfig /displaydns dns缓存
  * C:\Windows\System32\drivers\etc
@@ -43,7 +43,7 @@
  * git fetch origin;
  * git merge origin/master 用来合并
  * git diff master origin/master 查看本地分支和远程分支的差异
- 
+ * git reset --hard 766f git回退到某个版本 
  * git pull 是从远程仓库获取到数据直接合并
  * 
 
